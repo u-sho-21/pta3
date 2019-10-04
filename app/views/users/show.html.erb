@@ -1,0 +1,24 @@
+<h1><%= @user.name+"さん" %></h1>
+
+<table id="table" border="1">
+  <tr>
+     <th>日付</th>
+     <th>可、非</th>
+  </tr>
+  <% @dates.each do |day| %>
+   <tr>
+    <td><%= day.worked_on %></td>
+    <td></td>
+   </tr>
+  <% end %>
+</table>
+
+<style>
+  table{
+    width:100%;
+  }
+  th{
+    background-color:orange;
+
+  }
+</style>
