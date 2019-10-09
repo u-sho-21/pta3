@@ -1,6 +1,8 @@
 # README
 
 git sample222
+git uematsu
+git usuigit 
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
